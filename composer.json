@@ -1,0 +1,21 @@
+{
+    "name": "suncoding/ethapi",
+    "description": "php-eth-api-sdk",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "suncoding",
+            "email": "xyysun24@163.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Ethereum\\": "src/"
+        }
+    }
+}
